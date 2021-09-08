@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-	/*//using while loop to print number 1 to 5.
+	//using while loop to print number 1 to 5.
 	int i = 0;
 	while (i<=5){
 	cout << i << endl;
@@ -57,7 +57,7 @@ int main(){
   
     for (int n : num_array) {
         cout << n-1 << endl;     
-    }											*/
+    }											
 
 
 	//C++ Infinite loop
