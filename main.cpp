@@ -30,12 +30,41 @@ int main(){
 			cout << j << endl;
 			++j;
 		}
-	  while (j <=5);     */
+	  while (j <=5);     
 
 	
-	//C++ program to find the sum of positive numbers using do-while loop
-
+	//C++ for loop
+	for(int i = 1; i <=5; ++i){
+	cout << "Hello world" << endl;
+	}
 	
+	//C++ program to find sum of first n natural number.
+	int num, sum;
+	sum = 0;
+
+	cout << "Enter the n number :";
+	cin >> num;
+
+	for( int i=1; i <=num; ++i){
+		sum += i;
+	}
+
+	cout << "Total sum is:" << sum << endl << endl;
+
+
+  //C++ Range based For loop
+  	int num_array[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+  
+    for (int n : num_array) {
+        cout << n-1 << endl;     
+    }											*/
+
+
+	//C++ Infinite loop
+	for (int i = 1; i>0; ++i){
+		cout << "R~K~Y";
+	}
 
 	return 0;
+
 }
